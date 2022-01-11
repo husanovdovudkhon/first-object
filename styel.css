@@ -6,7 +6,11 @@
 
 .container{
     width: 85%;
-    margin: 0 auto; 
+    margin: auto; 
+}
+
+#header{
+    max-width: 2000px;
 }
 
 /* nav top start */
@@ -51,7 +55,7 @@
 
 #nav{
     background-color: rgba(115,112,216,1);
-    width: 100%;
+    max-width: 100%;
     /* position: absolute; */
     min-height: 100px;
     display: flex;
