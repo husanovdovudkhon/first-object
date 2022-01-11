@@ -6,5 +6,41 @@
 
 .container{
     width: 70%;
+    margin: 0 auto; 
+}
+
+.section_header{
+    max-width: 300px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
+    justify-content: center;
+}
+
+.section_header p{
+    text-align: center;
+    color: #44454f;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.services_text{
+    max-width: 840px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.services_text p{
+    color: #888;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.8;
 }
