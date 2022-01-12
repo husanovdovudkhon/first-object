@@ -33,11 +33,24 @@ body {
 } */
 
 .container{
-    width: 75%;
+    width: 85%;
     margin: auto; 
 }
 
+.btn{
+    color: #7370d8;
+    border: 1px solid #7370d8;
+    padding: 10px 30px;
+    z-index: -999;
+}
 
+.btn:hover{
+    color: #7370d8;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+/* header nav start */
 .container1{
     width: 100%;
     height: 100%;
@@ -108,11 +121,45 @@ body {
     font-weight: 700 !important;
 }
 
-/* nav top start */
+/* header nav end */
 
-/* nav top end */
+/* header banner start */
 
-/* nav start */
+.banner{
+    background: url('./img/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    /* background: rgba(115,112,215,.6); */
+    top: 0;
+    left: 0;
+}
+
+.overly{
+    width: 100%;
+    height: 100%;
+    background: #7470d86e;
+    opacity: .7px;
+    position: absolute;
+    margin-top: -496px;
+}
+
+.banner-text{
+    padding-top: 300px;
+    z-index: 1;
+    position: relative;
+}
+
+.banner-text h1{
+    color: #fff;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+/* header banner end */
 
 .active_link{
     font-weight: 700 !important;
