@@ -123,11 +123,11 @@
 }
 
 .services_text{
-    max-width: 1140px;
-    height: 80px;
+    max-width: 100%;
+    height: 150px;
     display: flex;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     margin: 0 auto;
 }
 
@@ -147,10 +147,27 @@
 
 
 .img1{
-    height: 170px;
+    height: 115px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Busisness_planning{
+    transition: 0.5s ease;
+    height: 360px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Busisness_consultency{
+    transition: 0.5s ease;
+    height: 360px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Busisness_planning img{
@@ -172,7 +189,7 @@
 
 .busisness_tex2 {
     max-width: 250px;
-    height: 100px;
+    height: 90px;
     margin: 0 auto;
     color: #756c6a;
     font-size: 16px;
@@ -190,4 +207,12 @@
     text-decoration: none;
     text-align: center;
     justify-content: center;
+}
+
+.Busisness_planning:hover{
+    box-shadow: 1px 1px 20px 1px #7470d825;
+}
+
+.Busisness_consultency:hover{
+    box-shadow: 1px 1px 20px 1px #7470d825;
 }
