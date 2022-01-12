@@ -59,10 +59,11 @@ body {
     font-size: 20px;
     transition: 0.4s ease;
     border: 1px solid #fff;
+    font-weight: 500;
 }
 
 .btn-light:hover{
-    color: #7370d8;
+    color: #fff;
     border: 1px solid #fff;
     background-color: #7470d800;
 }
@@ -148,7 +149,7 @@ body {
     background: url('./img/banner1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 900px;
     background-position: center;
     position: relative;
     width: 100%;
@@ -163,7 +164,7 @@ body {
     background: #7470d86e;
     opacity: .1px;
     position: absolute;
-    margin-top: -496px;
+    margin-top: -620px;
 }
 
 .banner-text{
@@ -184,8 +185,10 @@ body {
 }
 
 .buuttons{
-    padding-top: 50px;
+    padding-top: 80px;
 }
+
+
 
 /* header banner end */
 
