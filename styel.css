@@ -141,7 +141,7 @@
 }
 .services_section1{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
