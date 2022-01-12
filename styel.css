@@ -107,6 +107,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 auto;
 }
 .header2 ul li a {
     text-decoration: none;
@@ -127,13 +128,9 @@ body {
 
 /* nav start */
 
-
-
-
 .active_link{
     font-weight: 700 !important;
 }
-
 
 .section_header{
     max-width: 300px;
@@ -217,7 +214,7 @@ body {
 }
 
 .busisness_tex1 {
-    width: 225px;
+    width: 22px;
     height: 60px;
     display: flex;
     color: #44454f;
