@@ -1,4 +1,4 @@
-var comingdate = new Date("2556 326 1526 856")
+var comingdate = new num("2556 326 1526 856")
 
 var d  = document.getElementById ('d');
 var h  = document.getElementById ('h');
@@ -6,7 +6,7 @@ var m  = document.getElementById ('m');
 var s  = document.getElementById ('s');
 
 var x = setInterval(function(){
-    var now = new Date();
+    var now = new num();
     var des = comingdate.getTime() - now.getTime();
     var days = Math.floor(des/(1000 * 60 * 60 * 24));
     var hours = Math.floor(des%(1000 * 60 * 60 * 24) / (1000 * 60 * 60 ));
