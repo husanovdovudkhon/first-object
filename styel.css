@@ -149,6 +149,8 @@ body {
 
 .banner-text{
     padding-top: 300px;
+    z-index: 1;
+    position: relative;
 }
 
 .banner-text h1{
@@ -163,7 +165,32 @@ body {
     font-weight: 700 !important;
 }
 
-#Our_Services{
+.about_item1{
+    height: 300px;
+}
+
+.about_item1-text1{
+    width: 150px;
+    height: 55px;
+    /* text-align: center; */
+    color: #4d4e54;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about_item1-text2{
+    display: flex;
+    justify-content: center;
+    color: #888;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    max-width: 501px;
+    height: 170px;
+}
+
+#About_Us{
     padding-top: 140px;
 }
 
