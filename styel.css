@@ -164,7 +164,8 @@ body {
     background: #7470d86e;
     opacity: .1px;
     position: absolute;
-    margin-top: -620px;
+    /* margin-top: -620px; */
+    top: 0;
 }
 
 .banner-text{
