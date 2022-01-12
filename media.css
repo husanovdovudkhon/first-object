@@ -1,0 +1,10 @@
+@media screen and (max-width: 1020px) {
+    .header ul li a {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 930px) {
+    .header ul li a {
+        font-size: 14px;
+    }
+}
