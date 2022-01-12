@@ -33,7 +33,7 @@ body {
 } */
 
 .container{
-    width: 85%;
+    width: 75%;
     margin: auto; 
 }
 
@@ -185,16 +185,25 @@ body {
 }
 
 .Busisness_planning{
-    transition: 0.5s ease;
-    height: 360px;
+    transition: 0.5s ease; 
     width: 300px;
+    height: 315px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .Busisness_consultency{
     transition: 0.5s ease;
-    height: 360px;
+    height: 315px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Financial_services{
+    transition: 0.5s ease;
+    height: 315px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -246,4 +255,15 @@ body {
 
 .Busisness_consultency:hover{
     box-shadow: 1px 1px 20px 1px #7470d825;
+}
+
+.Financial_services:hover{
+    box-shadow: 1px 1px 20px 1px #7470d825;
+}
+
+.services_section2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
 }
