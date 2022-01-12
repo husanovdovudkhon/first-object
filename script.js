@@ -13,10 +13,10 @@ var x = setInterval(function(){
     var mins = Math.floor(des%(1000 * 60 * 60) / (1000 * 60));
     var secs = Math.floor(des%(1000 * 60) / 1000);
 
-  d.innerHTML = getTrueNumber(days);
-  h.innerHTML = getTrueNumber(hours);
-  m.innerHTML = getTrueNumber(mins);
-  s.innerHTML = getTrueNumber(secs);
+  d.innerHTML = getTrueNumber(num);
+  h.innerHTML = getTrueNumber(num);
+  m.innerHTML = getTrueNumber(num);
+  s.innerHTML = getTrueNumber(num);
 
 },1000);
 
