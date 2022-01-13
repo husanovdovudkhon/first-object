@@ -69,6 +69,11 @@ body {
     background-color: #7470d800;
 }
 
+.btn-dark{
+    background-color: #7370d8;
+    color: #fff;
+    border: 1px solid #7370d8;
+}
 
 /* header nav start */
 .container1{
