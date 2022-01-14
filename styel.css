@@ -12,7 +12,6 @@ html {
   overflow-x: hidden;
 }
 body {
-  overflow-x: hidden;
   font-family: sans-serif;
 }
 ::-webkit-scrollbar {
@@ -94,14 +93,10 @@ body {
 }
 
 /* header nav start */
-.container1 {
-  width: 100%;
-  height: 100%;
-}
 
 nav{
     background-color: #7370d8;
-    min-height: 15vh;
+    height: 100px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -158,17 +153,15 @@ nav{
   background-size: cover;
   min-height: 900px;
   background-position: center;
-  /* position: relative; */
   width: 100%;
   top: 0;
-  left: 0;
+  /* left: 0; */
 }
 
 
 .banner-text {
   padding-top: 300px;
   /* z-index: 1; */
-  position: relative;
 }
 
 
@@ -197,19 +190,20 @@ nav{
   width: 600px;
 }
 
-/* header banner end */
+
 
 .active_link {
   font-weight: 700 !important;
 }
+/* header banner end */
 
-.about_item1 {
+ /* .about_item1 {
   width: 500px;
   height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 
 .about_item1-text1 {
   width: 150px;
@@ -228,8 +222,15 @@ nav{
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   line-height: 1.7;
-  max-width: 501px;
+  width: 80%;
   height: 170px;
+}
+
+.block{
+  display: none;
+}
+.none{
+  display: block;
 }
 .about_about_btn {
   background: #7370d8;
@@ -241,15 +242,15 @@ nav{
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  /* -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -ms-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out; */
   transition: 0.5s ease-in-out;
 }
 
 #About_Us {
-  padding-top: 140px;
+  padding-top: 100px;
+}
+
+#Our_Services{
+  padding-top: 80px;
 }
 
 .section_header {
@@ -275,7 +276,6 @@ nav{
   height: 150px;
   display: flex;
   text-align: center;
-  /* align-items: center; */
   margin: 0 auto;
 }
 
@@ -288,10 +288,11 @@ nav{
   line-height: 1.8;
 }
 .services_section1 {
-  width: 100%;  
+  width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .img1 {
@@ -367,15 +368,18 @@ nav{
 }
 
 .Busisness_planning:hover {
-  box-shadow: 1px 1px 20px 1px #7470d825;
+  box-shadow: 1px 1px 20px 1px #7470d834;
+  cursor: pointer;
 }
 
 .Busisness_consultency:hover {
-  box-shadow: 1px 1px 20px 1px #7470d825;
+  box-shadow: 1px 1px 20px 1px #7470d834;
+  cursor: pointer;
 }
 
 .Financial_services:hover {
-  box-shadow: 1px 1px 20px 1px #7470d825;
+  box-shadow: 1px 1px 20px 1px #7470d834;
+  cursor: pointer;
 }
 
 .services_section2 {
@@ -384,68 +388,4 @@ nav{
   flex-wrap: wrap;
   padding-top: 50px;
   display: flex;
-}
-
-/* JS page */
-.page {
-  background: #f1f1f1;
-  display: flex;
-  flex-wrap: wrap;
-}
-.col {
-  flex: 1;
-  height: 100vh;
-  position: relative;
-}
-.countdown-col {
-  background: url(site.png) no-repeat center;
-  background-size: cover;
-}
-.time {
-  color: #fff;
-  text-transform: uppercase;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-}
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.time span {
-  padding: 0 12px;
-  font-size: 10px;
-}
-.time span div {
-  font-size: 40px;
-}
-.newsletter {
-  width: 90%;
-}
-.newsletter h4 {
-  font-style: italic;
-  font-size: 12px;
-}
-.newsletter input {
-  display: block;
-  margin: 12px auto;
-  width: 100%;
-  min-width: 400px;
-  box-sizing: border-box;
-  padding: 12px 20px;
-  border-radius: 30px;
-  border: 1px solid #ddd;
-  outline: none;
-}
-.newsletter-btn {
-  background: linear-gradient(120deg, #3498db, #34495e);
-  color: #fff;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.newsletter-btn:hover {
-  opacity: 0.7;
 }
