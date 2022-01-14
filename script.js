@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 const navSlide = () =>{
     const burger = document.querySelector('.burger');
@@ -14,3 +15,5 @@ const navSlide = () =>{
 }
 
 navSlide();
+=======
+>>>>>>> 1fc44ef790375a7f68f914ad38187c6a263ea984
