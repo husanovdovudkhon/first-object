@@ -197,19 +197,6 @@ nav{
 }
 /* header banner end */
 
-<<<<<<< HEAD
- /* .about_item1 {
-  width: 500px;
-=======
-.about_item1 {
-  width: 50%;
->>>>>>> 1fc44ef790375a7f68f914ad38187c6a263ea984
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .about_item1-text1 {
   width: 150px;
   height: 55px;
